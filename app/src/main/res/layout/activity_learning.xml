@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F1E6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learning Hub"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#2B2B2B"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- CARD 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFDF8"
+            android:padding="16dp"
+            android:layout_marginBottom="15dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/plant_tip"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/best_beginner_crops"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#2B2B2B"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/learn_which_crops_are_easiest_to_grow_for_beginners_and_home_gardeners"
+                android:textSize="16sp"
+                android:textColor="#6F6A57"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <!-- CARD 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFDF8"
+            android:padding="16dp"
+            android:layout_marginBottom="15dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/watering"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proper Watering Tips"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#2B2B2B"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Understand how often plants should be watered to avoid overwatering."
+                android:textSize="16sp"
+                android:textColor="#6F6A57"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <!-- CARD 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFDF8"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/fertilizer"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/organic_fertilizer_guide"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#2B2B2B"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Simple ways to improve plant growth using organic fertilizer methods."
+                android:textSize="16sp"
+                android:textColor="#6F6A57"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

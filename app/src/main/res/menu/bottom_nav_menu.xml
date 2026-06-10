@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/nav_crops"
+        android:title="@string/crops"
+        android:icon="@drawable/ic_leaf"/>
+
+    <item
+        android:id="@+id/nav_calendar"
+        android:title="@string/calendar"
+        android:icon="@drawable/ic_calendar"/>
+
+    <item
+        android:id="@+id/nav_reminders"
+        android:title="@string/reminders"
+        android:icon="@drawable/ic_bell"/>
+
+    <item
+        android:id="@+id/nav_market"
+        android:title="@string/market"
+        android:icon="@drawable/ic_graph"/>
+
+</menu>

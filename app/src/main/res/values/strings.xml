@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AgriGuide</string>
+    <string name="app_logo" translatable="false">App logo</string>
+    <string name="notifications" translatable="false">Notifications</string>
+    <string name="go">Go</string>
+    <string name="card_Description">Find the best crops for your location and season.</string>
+    <string name="card_Plant_Suggestions">What should I plant?</string>
+    <string name="home">Home</string>
+    <string name="crops">Crops</string>
+    <string name="calendar">Calendar</string>
+    <string name="reminders">Reminders</string>
+    <string name="market">Market</string>
+    <string name="learn_which_crops_are_easiest_to_grow_for_beginners_and_home_gardeners">Learn which crops are easiest to grow for beginners and home gardeners.</string>
+    <string name="best_beginner_crops">Best Beginner Crops</string>
+    <string name="organic_fertilizer_guide">Organic Fertilizer Guide</string>
+    <string name="lettuce">lettuce</string>
+</resources>
