@@ -14,4 +14,7 @@
     <string name="best_beginner_crops">Best Beginner Crops</string>
     <string name="organic_fertilizer_guide">Organic Fertilizer Guide</string>
     <string name="lettuce">lettuce</string>
+    <string name="menu">menu</string>
+    <string name="view_all">View all</string>
+    <string name="view_guide">View Guide</string>
 </resources>

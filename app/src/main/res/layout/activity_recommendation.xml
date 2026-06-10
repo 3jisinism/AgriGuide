@@ -205,9 +205,10 @@
             </LinearLayout>
 
             <Button
+                android:id="@+id/buttonToGuide"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="View Guide"
+                android:text="@string/view_guide"
                 android:backgroundTint="#3F6B4F"/>
 
         </LinearLayout>

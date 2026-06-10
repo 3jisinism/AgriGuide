@@ -76,7 +76,7 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/tomato"/>
+                    android:src="@drawable/tomatoes"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -97,7 +97,7 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/eggplant"/>
+                    android:src="@drawable/eggplants"/>
 
                 <TextView
                     android:layout_width="wrap_content"

@@ -1,7 +1,9 @@
 package com.example.agriguide;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Spinner;
 
@@ -27,8 +29,11 @@ public class RecommendationActivity extends AppCompatActivity {
 
         // Back button
         ImageButton btnBack = findViewById(R.id.btnBack);
-
-        btnBack.setOnClickListener(v -> finish());
+        btnBack.setOnClickListener(v -> {
+                    Intent intent = new Intent(RecommendationActivity.this,
+                            MainActivity.class);
+                    startActivity(intent);
+                });
 
         // Spinner
         Spinner locationSpinner;
@@ -51,7 +56,14 @@ public class RecommendationActivity extends AppCompatActivity {
         adapter.setDropDownViewResource(
                 android.R.layout.simple_spinner_dropdown_item
         );
-
         locationSpinner.setAdapter(adapter);
+
+        Button buttonToGuide = findViewById(R.id.buttonToGuide);
+        buttonToGuide.setOnClickListener(v -> {
+            Intent intent = new Intent(RecommendationActivity.this,
+                    GuideActivity.class);
+            startActivity(intent);
+        });
+
     }
 }
